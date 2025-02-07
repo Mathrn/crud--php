@@ -1,4 +1,9 @@
-
+<?php
+    include 'clientes.php';
+    include 'produtos.php';
+    include 'vendas.php';
+    include 'A.PHP';
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>

@@ -1,5 +1,7 @@
 <?php
 
+include 'connect.php';
+include 'A.PHP';
 // Funções CRUD para Clientes
 function adicionarCliente($nome, $email) {
     global $conn;
