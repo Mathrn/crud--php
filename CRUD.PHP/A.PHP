@@ -1,8 +1,8 @@
 <?php
 // Conexão com o banco de dados
-$host = 'localhost';
-$user = 'root'; // Altere se necessário
-$pass = ''; // Adicione sua senha se houver
+$host = 'local2';
+$user = 'root'; 
+$pass = ''; 
 $dbname = 'loja_livros';
 
 $conn = new mysqli($host, $user, $pass, $dbname);

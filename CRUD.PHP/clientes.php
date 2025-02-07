@@ -25,6 +25,6 @@ function deletarCliente($id) {
     global $conn;
     $stmt = $conn->prepare("DELETE FROM clientes WHERE id=?");
     $stmt->bind_param("i", $id);
-    return $stmt->execute();
+    return $stmt->execute();}
 
 ?>
